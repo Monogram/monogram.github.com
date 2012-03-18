@@ -47,7 +47,7 @@ header {
   /*border-right: 1px solid #CCCCCC;*/
 }
 
-#index img.icon {
+img.icon {
   position: relative;
   top: -2px;
 }
