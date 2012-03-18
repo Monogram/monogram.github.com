@@ -1,0 +1,62 @@
+body {
+  background-color: #FFF;
+  padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
+body#splash {
+  background-image: url("../img/grid-18px-masked.png");
+  background-repeat: repeat-x;
+  position: relative;
+}
+
+header {
+  margin-top: 53px;
+}
+
+.masthead h1 {
+  margin-bottom: 38px;
+}
+
+.masthead h1, .masthead p {
+  text-align: center;
+}
+
+.masthead p {
+  font-size: 30px;
+  line-height: 36px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.jumbotron h1 {
+  font-size: 81px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+#index .row:last-child {
+  /*border-top: 1px solid #CCCCCC;*/
+}
+
+#index .span6 {
+  width: 420px;
+  height: 100px;
+}
+
+#index .span6:first-child {
+  /*border-right: 1px solid #CCCCCC;*/
+}
+
+#index img.icon {
+  position: relative;
+  top: -2px;
+}
+
+#content-row-1 {
+  margin-top: 70px;
+}
+
+#about .thumbnails, #about .thumbnails > li {
+  margin-bottom: 0px;
+}
+
