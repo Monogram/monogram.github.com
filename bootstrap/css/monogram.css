@@ -69,6 +69,14 @@ img.contact-icon {
   margin-bottom: 0px;
 }
 
+#about h2 {
+  margin-bottom: 10px;
+}
+
+#about .icon, #contact .icon {
+  top: -3px;
+}
+
 div.icon-size {
   width: 25px;
   text-align: center;
