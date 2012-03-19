@@ -40,16 +40,25 @@ header {
 
 #index .span6 {
   width: 420px;
-  height: 100px;
+  height: 120px;
 }
 
 #index .span6:first-child {
   /*border-right: 1px solid #CCCCCC;*/
 }
 
+#index .span6.well h2 {
+  margin-bottom: 10px;
+}
+
 img.icon {
   position: relative;
-  top: -2px;
+  top: 2px;
+}
+
+img.contact-icon {
+  position: relative;
+  top: 5px;
 }
 
 #content-row-1 {
@@ -60,3 +69,7 @@ img.icon {
   margin-bottom: 0px;
 }
 
+div.icon-size {
+  width: 25px;
+  text-align: center;
+}
